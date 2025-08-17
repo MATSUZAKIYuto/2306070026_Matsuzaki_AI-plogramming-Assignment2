@@ -28,6 +28,6 @@
    │ └── code_diagram.png # コード構成図
    └
 
-ブロック図 1.png
+![Test Image 1](ブロック図 1.png)
 
 コード図.png
