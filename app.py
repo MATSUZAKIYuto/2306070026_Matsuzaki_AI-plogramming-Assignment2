@@ -24,11 +24,11 @@ if city:
         st.subheader(f"{city} の天気予報（日別）")
         st.dataframe(forecast_df, use_container_width=True)
 
-        # グラフ表示（最高・最低気温）
+        """# グラフ表示（最高・最低気温）
         st.subheader("📈 気温の推移")
-        st.line_chart(forecast_df.set_index("date")[["最高気温", "最低気温"]])
+        st.line_chart(forecast_df.set_index("date")[["最高気温", "最低気温"]])"""
 
-        # 時間別天気（アイコン付き）を日別で表示
+        """# 時間別天気（アイコン付き）を日別で表示
         st.subheader("🕒 時間別の天気（9時・12時・20時）")
         for _, row in forecast_df.iterrows():
             st.markdown(f"### {row['date']}")
@@ -36,5 +36,6 @@ if city:
             for i, hour in enumerate([9, 12, 20]):
                 desc_with_icon = row.get(f"{hour}時の天気", "不明")
                 cols[i].markdown(f"{hour}時：{desc_with_icon}")
+        """
     else:
         st.error("都市名が見つかりませんでした。英語表記で入力してください。")
