@@ -13,5 +13,9 @@ if city:
         st.dataframe(forecast_df)
 
         st.line_chart(forecast_df.set_index("date")[["最高気温", "最低気温"]])
+
+        st.subheader(f"{city} の位置")
+        st.map(pd.DataFrame({'lat': [lat], 'lon': [lon]}))
     else:
         st.error("都市名が見つかりませんでした。")
+
