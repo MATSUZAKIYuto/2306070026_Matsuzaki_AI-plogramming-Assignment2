@@ -1,0 +1,8 @@
+- アプリURL: https://2306070026matsuzakiai-plogramming-assignment2-pfinxlbwss22xlhh.streamlit.app/
+- GitHub URL： https://github.com/MATSUZAKIYuto/2306070026_Matsuzaki_AI-plogramming-Assignment2
+- 加点の有無: 無し
+- その他コメント： xxxx（難しかった点や疑問、前期の感想、後期でやりたいことなど。）
+                        難しかった点：mdにpngが表示されなかった。パスのスラッシュ向きが逆。
+                                    普段使っていないノートPCの環境構築。
+                        課題提出日の誤認識と締め切りぎりぎりじゃないとやる気が起きなかった。あとこれでOKなのかわからない。
+                        コミットの際のコメントの書き方もわからない。
