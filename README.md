@@ -4,6 +4,8 @@
 
 ## 📌 概要
 
+- [Streamlit](https://2306070026matsuzakiai-plogramming-assignment2-pfinxlbwss22xlhh.streamlit.app/)
+
 このアプリは、ユーザーが都市名（英語）を入力すると、Open-Meteo API を利用してその地域の天気予報を表示する
 1 日の最高・最低気温に加え、9 時・12 時・20 時の天気（絵文字付き）を表示します。都市の位置も地図上に表示される
 
@@ -31,3 +33,5 @@
 ![Code Diagram](assets\PNGblock.png)
 
 ![Code Diagram](assets\PNGcode.png)
+
+![Code Diagram](PNGcode.png)
