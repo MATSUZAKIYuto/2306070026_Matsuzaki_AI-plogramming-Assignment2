@@ -1,8 +1,6 @@
 夏休み課題の改善案
 
 <img width="1871" height="811" alt="スクリーンショット 2025-09-09 152554" src="https://github.com/user-attachments/assets/f9e71606-5847-4b3b-a8c4-bbc92d2f0adc" />
-<img width="1871" height="811" alt="Image" src="https://github.com/user-attachments/assets/eca39786-3874-4e5a-904f-9a5b6f9bb0d5" />
-
 
 改善
 グラフ表示（最高・最低気温）と時間別天気（アイコン付き）を日別で表示が表示されない問題の改善
